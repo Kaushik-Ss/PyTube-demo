@@ -1,2 +1,2 @@
 # Pytube-demo
-Download Youtube *Educational purposes only*
+Download Youtube videos **For Educational purposes only**
