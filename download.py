@@ -22,10 +22,9 @@ try:
 	        print(i,'Type',needed[i])
 	to_down=int(input())
 	stream = yt.streams.get_by_itag(to_down)
-	# The file is downloaded to the current directory
 	stream.download()
 	print('downloaded')
 except:
-	print('Can't download video)
+	print("Can't download video")
 	print('Try python -m pip install --upgrade pytube')
 	
